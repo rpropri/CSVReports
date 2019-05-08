@@ -7,7 +7,7 @@ const bodyParse = require('body-parser');
 app.use(bodyParse.text());
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public/index.html'));
+  res.sendFile(path.join(__dirname, '../client/index.html'));
 });
 
 app.post('/upload', (req, res) => {
