@@ -1,0 +1,21 @@
+{
+  "name": "CSV-Reports",
+  "version": "1.0.0",
+  "description": "Practice building a full-stack app",
+  "author": "Ron Propri",
+  "license": "UNLICENSED",
+  "private": false,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "body-parser": "^1.19.0"
+    "mysql": "^2.12.0"
+  },
+  "devDependencies": {
+  }
+}
